@@ -9,25 +9,35 @@
 /* Begin PBXBuildFile section */
 		267F0C2D2AA89188004E949E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267F0C2C2AA89188004E949E /* AppDelegate.swift */; };
 		267F0C2F2AA89189004E949E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267F0C2E2AA89189004E949E /* SceneDelegate.swift */; };
-		267F0C312AA89189004E949E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267F0C302AA89189004E949E /* ViewController.swift */; };
+		267F0C312AA89189004E949E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267F0C302AA89189004E949E /* MainViewController.swift */; };
 		267F0C362AA8918B004E949E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 267F0C352AA8918B004E949E /* Assets.xcassets */; };
 		267F0C392AA8918B004E949E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267F0C372AA8918B004E949E /* LaunchScreen.storyboard */; };
 		267F0C412AA8923B004E949E /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267F0C402AA8923B004E949E /* LocationService.swift */; };
 		26927C632AAA068300B87D4F /* GasStationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26927C622AAA068200B87D4F /* GasStationTableViewCell.swift */; };
 		26927C652AAA122F00B87D4F /* GasStationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26927C642AAA122F00B87D4F /* GasStationViewModel.swift */; };
+		32A98D492AAC955D009F9A6A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32A98D482AAC955D009F9A6A /* Localizable.strings */; };
+		32A98D4E2AAC9617009F9A6A /* AppString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A98D4D2AAC9617009F9A6A /* AppString.swift */; };
+		32A98D502AAC96C9009F9A6A /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A98D4F2AAC96C9009F9A6A /* AppInfo.swift */; };
+		32A98D532AAC9AFD009F9A6A /* AppLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A98D522AAC9AFD009F9A6A /* AppLog.swift */; };
+		32A98D552AAC9B85009F9A6A /* Date+ISO8601.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A98D542AAC9B85009F9A6A /* Date+ISO8601.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		267F0C292AA89188004E949E /* GasStationInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GasStationInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		267F0C2C2AA89188004E949E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		267F0C2E2AA89189004E949E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		267F0C302AA89189004E949E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		267F0C302AA89189004E949E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		267F0C352AA8918B004E949E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		267F0C382AA8918B004E949E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		267F0C3A2AA8918B004E949E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		267F0C402AA8923B004E949E /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		26927C622AAA068200B87D4F /* GasStationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStationTableViewCell.swift; sourceTree = "<group>"; };
 		26927C642AAA122F00B87D4F /* GasStationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStationViewModel.swift; sourceTree = "<group>"; };
+		32A98D482AAC955D009F9A6A /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		32A98D4D2AAC9617009F9A6A /* AppString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppString.swift; sourceTree = "<group>"; };
+		32A98D4F2AAC96C9009F9A6A /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
+		32A98D522AAC9AFD009F9A6A /* AppLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLog.swift; sourceTree = "<group>"; };
+		32A98D542AAC9B85009F9A6A /* Date+ISO8601.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+ISO8601.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +70,62 @@
 		267F0C2B2AA89188004E949E /* GasStationInfo */ = {
 			isa = PBXGroup;
 			children = (
+				32A98D512AAC9A21009F9A6A /* Extensions */,
+				32A98D472AAC950C009F9A6A /* Resources */,
+				32A98D4C2AAC95DE009F9A6A /* Components */,
+				32A98D4A2AAC959D009F9A6A /* Controllers */,
 				267F0C2C2AA89188004E949E /* AppDelegate.swift */,
 				267F0C2E2AA89189004E949E /* SceneDelegate.swift */,
-				267F0C302AA89189004E949E /* ViewController.swift */,
-				267F0C352AA8918B004E949E /* Assets.xcassets */,
-				267F0C372AA8918B004E949E /* LaunchScreen.storyboard */,
+				32A98D4D2AAC9617009F9A6A /* AppString.swift */,
+				32A98D4F2AAC96C9009F9A6A /* AppInfo.swift */,
+				32A98D522AAC9AFD009F9A6A /* AppLog.swift */,
 				267F0C3A2AA8918B004E949E /* Info.plist */,
-				267F0C402AA8923B004E949E /* LocationService.swift */,
-				26927C622AAA068200B87D4F /* GasStationTableViewCell.swift */,
-				26927C642AAA122F00B87D4F /* GasStationViewModel.swift */,
 			);
 			path = GasStationInfo;
+			sourceTree = "<group>";
+		};
+		32A98D472AAC950C009F9A6A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				267F0C352AA8918B004E949E /* Assets.xcassets */,
+				267F0C372AA8918B004E949E /* LaunchScreen.storyboard */,
+				32A98D482AAC955D009F9A6A /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		32A98D4A2AAC959D009F9A6A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				32A98D4B2AAC95A8009F9A6A /* Main */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		32A98D4B2AAC95A8009F9A6A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				267F0C302AA89189004E949E /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		32A98D4C2AAC95DE009F9A6A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				267F0C402AA8923B004E949E /* LocationService.swift */,
+				26927C642AAA122F00B87D4F /* GasStationViewModel.swift */,
+				26927C622AAA068200B87D4F /* GasStationTableViewCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		32A98D512AAC9A21009F9A6A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				32A98D542AAC9B85009F9A6A /* Date+ISO8601.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				267F0C392AA8918B004E949E /* LaunchScreen.storyboard in Resources */,
+				32A98D492AAC955D009F9A6A /* Localizable.strings in Resources */,
 				267F0C362AA8918B004E949E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,11 +199,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				267F0C312AA89189004E949E /* ViewController.swift in Sources */,
+				32A98D4E2AAC9617009F9A6A /* AppString.swift in Sources */,
+				32A98D532AAC9AFD009F9A6A /* AppLog.swift in Sources */,
+				267F0C312AA89189004E949E /* MainViewController.swift in Sources */,
 				267F0C2D2AA89188004E949E /* AppDelegate.swift in Sources */,
 				26927C632AAA068300B87D4F /* GasStationTableViewCell.swift in Sources */,
 				26927C652AAA122F00B87D4F /* GasStationViewModel.swift in Sources */,
+				32A98D502AAC96C9009F9A6A /* AppInfo.swift in Sources */,
 				267F0C412AA8923B004E949E /* LocationService.swift in Sources */,
+				32A98D552AAC9B85009F9A6A /* Date+ISO8601.swift in Sources */,
 				267F0C2F2AA89189004E949E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

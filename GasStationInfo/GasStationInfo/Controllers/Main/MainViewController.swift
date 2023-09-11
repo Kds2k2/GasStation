@@ -10,7 +10,7 @@ import CoreLocation
 import MapKit
 import SafariServices
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
 
     private var userLocation: CLLocationCoordinate2D? = nil
     
@@ -133,7 +133,7 @@ class ViewController: UIViewController {
 }
 
 //MARK: UITableViewDelegate, UITableViewDataSource
-extension ViewController: UITableViewDelegate, UITableViewDataSource {
+extension MainViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return items.count
@@ -178,7 +178,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
 }
 
 //MARK: MKMapViewDelegate
-extension ViewController: MKMapViewDelegate {
+extension MainViewController: MKMapViewDelegate {
     
     func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
          let renderer = MKPolylineRenderer(overlay: overlay)
